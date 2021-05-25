@@ -2,15 +2,16 @@ body {
   overflow: hidden;
   height: 80vh;
   font-family: "Roboto", sans-serif;
+  background-color: #325288;
 }
 
 .wrapper {
-  height: 380px;
-  width: 380px;
+  height: 384px;
+  width: 384px;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   margin: 0 auto;
-  grid-row-gap: 0px;
+  background-color: lightyellow;
 }
 .box {
   border: 1px solid lightslategrey;
@@ -31,4 +32,9 @@ h1 {
   text-align: center;
 
   margin-top: -10px;
+}
+
+button {
+  background-color: limegreen;
+  border-radius: 5px;
 }
